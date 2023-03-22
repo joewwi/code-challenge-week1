@@ -1,4 +1,4 @@
-function Convert(){
+function studentGradeGenerator(){
     let pace = parseInt(speed.value);
     if(pace < 0){
         speed= "The car is in reverse"
@@ -35,6 +35,5 @@ function Convert(){
     }
     
     console.log(speed)
-    resultSpeed.innerText = `${speed}`;
+    output2.innerText = `${speed}`;
   }
-  
