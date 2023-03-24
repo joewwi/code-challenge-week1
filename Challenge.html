@@ -10,26 +10,31 @@
     <form id="">
         <h1>Student Grade Generator</h1>
         <label for="marks">Enter marks:</label>
-        <input type="number" id="gradeConverter">
-        <button onclick="studentGradeGenerator()" id="btn">Result</button>
-        <p id="output"></p>
-        <script src="Challenge1.js"></script>
+        <input type="number" id="marksInput">
+        <button id="results" >Result</button>
+        
     </form>
+    <p id="output"></p>
     <form>
         <h1>Speed Detector</h1>
         <label for="number">Enter Speed:</label>
         <input type="number" id="Speed">
-        <button id="btn2">Calculate</button>
+        <button id="Calculate">Calculate</button>
         <h2 id="output2"></h2>
-        <script src="Challenge2.js"></script>
     </form>
     <form>
         <h1>Tax Calculator</h1>
         <label for="number">Enter Salary:</label>
-        <input id="input" type="number">
-        <button id="btn3" >Calculate</button>
+        <input id="basic_salary" type="number">
+        <input id="benefits" type="number">
+        <button id="btnpaye"  >Calculate Paye</button>
+        <button id="btn-nhif">NHIF Deductions</button>
+        <button id="btn-nssf">NSSF Deductions</button>
+        <button id="netSal">Net Salary</button>
         <h2 id="output3"></h2>
-        <script src="Challenge3.js"></script>
     </form>
+    <script src="Challenge1.js"></script>
+    <script src="Challenge2.js"></script>
+    <script src="Challenge3.js"></script>
 </body>
 </html>
